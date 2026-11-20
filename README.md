@@ -25,7 +25,7 @@ The project followed a design-controls approach (21 CFR 820.30, ISO 13485, ISO 1
 
 | Early bench prototype | Sensor and compute mount |
 |---|---|
-| ![Bench setup](images/prototype_bench_setup.png) | ![Sensor mount](images/prototype_sensor_mount.png) |
+| ![Bench setup](prototype_bench_setup.png) | ![Sensor mount](prototype_sensor_mount.png) |
 | First test model: USB webcam on a gooseneck arm over a printed page, with code running on an attached display. | Ultrasonic distance sensor and Raspberry Pi mounted on a perfboard bracket, with wired earphones for audio output. |
 
 These early test models proved the capture, OCR and audio chain on the bench. Later iterations moved to a Raspberry Pi camera module, a soldered drive circuit, and a SolidWorks-designed ABS enclosure.
@@ -34,7 +34,7 @@ These early test models proved the capture, OCR and audio chain on the bench. La
 
 ## System architecture
 
-![System architecture](images/system_architecture.png)
+![System architecture](system_architecture.png)
 
 | Subsystem | Function | Key design decision |
 |---|---|---|
