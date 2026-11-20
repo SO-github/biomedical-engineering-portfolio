@@ -1,0 +1,25 @@
+Loaded 56 rows | 8 weeks x 7 days
+Total defects: 19 | p-bar: 0.3393
+
+p-Chart | p-bar=0.3393 sigma=0.1790 UCL=0.8761 LCL=0.0000
+
+np-Chart | np-bar=2.3750 UCL=6.1330 LCL=0.0000
+
+Pareto counts (sorted):
+  >1h Social Media          15 (cum 36.6%)
+  <7h Sleep                 9 (cum 58.5%)
+  Missed Target             9 (cum 80.5%)
+  Skipped Workout           4 (cum 90.2%)
+  Priority Task Incomp.     4 (cum 100.0%)
+
+EWMA | lambda=0.20 L=3.0 p0=0.3393 sigma0=0.4735
+Steady-state UCL (t=56): 0.8128  LCL: 0.0000
+Out-of-control days: None 
+
+===== Binomial Model: X ~ Binomial(7, p-bar) =====
+p-bar             : 0.3393
+E[X] = 7 * p-bar  : 2.3750 defective days/week
+Var[X]            : 1.5692
+P(X=0)            : 0.0550 (5.5%)
+P(X>=4)           : 0.1826 (18.3%)
+At p = 0.20       : P(X=0) = 0.210, P(X>=4) = 0.033
