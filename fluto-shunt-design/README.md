@@ -44,7 +44,7 @@ Fetal lower urinary tract obstruction (FLUTO), most often caused by posterior ur
 | C. MEMS-controlled valve | Sensor plus micro-valve regulates flow by set parameters | Tightest control in theory | Power, complexity, cost, reliability |
 | **Selected: passive pressure-dependent valve** | Valve opening widens as bladder pressure rises and narrows as it falls | Self-regulating, no power, same delivery as VAS | Threshold drift, valve durability |
 
-![Concept sketches](fluto_concepts.png)
+![Concept sketches](FLUTO_shuntdesign-BioRender.png)
 
 *Concept sketches (team figure, made in BioRender). Left: balloon-controlled occlusion, with the clinician setting balloon pressure. Middle: MEMS sensor-controlled valve. Right: passive valve that opens wider as bladder pressure rises.*
 
