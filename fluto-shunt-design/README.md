@@ -44,6 +44,10 @@ Fetal lower urinary tract obstruction (FLUTO), most often caused by posterior ur
 | C. MEMS-controlled valve | Sensor plus micro-valve regulates flow by set parameters | Tightest control in theory | Power, complexity, cost, reliability |
 | **Selected: passive pressure-dependent valve** | Valve opening widens as bladder pressure rises and narrows as it falls | Self-regulating, no power, same delivery as VAS | Threshold drift, valve durability |
 
+![Concept sketches](images/fluto_concepts.png)
+
+*Concept sketches (team figure, made in BioRender). Left: balloon-controlled occlusion, with the clinician setting balloon pressure. Middle: MEMS sensor-controlled valve. Right: passive valve that opens wider as bladder pressure rises.*
+
 ---
 
 ## Selected design
@@ -88,6 +92,11 @@ flowchart LR
 | Clogging by debris or cells | Loss of drainage | Lumen sizing; track obstruction rates |
 | Migration or dislodgement | Loss of drainage, repeat procedure | Basket anchoring at both ends; serial ultrasound |
 | Valve diaphragm tear or anchor breakage | Device failure, fragment risk | Material selection; durability testing |
+
+
+## Background reading
+
+The selected design builds on the Vortex shunt, an investigational design with a covered nitinol coil conduit, braided nitinol fixation discs and a one-way valve ([Stanford TechFinder](https://techfinder.stanford.edu/technology/vortex-shunt-novelprenatal-lower-urinary-tract-obstruction-luto-vesico-amniotic-shunt)). For background on FLUTO and current shunting, see Haeri, *Fetal lower urinary tract obstruction (LUTO): a practical review for providers* ([PMC4823687](https://pmc.ncbi.nlm.nih.gov/articles/PMC4823687/)).
 
 ---
 
